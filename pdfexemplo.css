@@ -1,0 +1,47 @@
+body {
+    background-color: #000000; /* Cor de fundo preta */
+}
+
+h1 {
+    font-family: "Lato", sans-serif; /* Define a fonte para o título principal */
+    font-weight: 900; /* Aplica negrito ao texto */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    margin: 3rem; /* Adiciona espaço abaixo do título */
+    text-transform: uppercase; /* Converte o texto para maiúsculas */
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #db2a2a; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    
+}
+
+p {
+    font-family: "Lato", sans-serif; /* Define a fonte para o parágrafo */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    font-size: 1.4rem; /* Tamanho da fonte do parágrafo */
+    text-align: center; /* Alinha o texto ao centro */
+    color: #ffffff; /* Cor do texto do parágrafo */
+   
+}
+
+button {
+    font-family: "Lato", sans-serif; /* Define a fonte para o botão */
+    font-weight: 900; /* Aplica negrito ao texto do botão */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    margin: 1rem auto; /* Espaçamento ao redor do botão e centraliza horizontalmente */
+    border: none; /* Remove a borda do botão */
+    border-radius: 1.0rem; /* Arredonda as bordas do botão */
+    background-color: #db2a2a; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Define o cursor como "pointer" ao passar sobre o botão */
+    display: block; /* Centraliza o botão */
+}
+
+button a {
+    
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #F5F7F8; /* Cor do texto do link */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+}
