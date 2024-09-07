@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/* Importa a fonte 'Lato' do Google Fonts com diferentes pesos e estilos */
+
 body {
     background-color: #000000; /* Cor de fundo preta */
 }
@@ -44,4 +47,26 @@ button a {
     text-decoration: none; /* Remove sublinhado do link */
     color: #F5F7F8; /* Cor do texto do link */
     text-transform: uppercase; /* Transforma o texto para maiúsculas */
+}
+
+footer {
+    background-color: #131111; /* Cor de fundo do rodapé */
+    color: #fffbfb; /* Cor do texto do rodapé */
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    padding: 10px; /* Espaçamento interno do rodapé */
+    width: 100%; /* Largura total do rodapé */
+    position: fixed; /* Define o posicionamento do rodapé */
+    bottom: 0; /* Alinha o rodapé ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte do rodapé */
+    font-family: "Lato", sans-serif; /* Define a fonte do rodapé */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+}
+
+footer p {
+    font-family: "Lato", sans-serif; /* Define a fonte para o parágrafo */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    font-size: 1rem; /* Tamanho da fonte do parágrafo */
+    color: #ffffff; /* Cor do texto do parágrafo */
 }

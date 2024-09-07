@@ -1,6 +1,7 @@
+
 function pesquisar() {
     // Obtém a seção HTML onde os resultados serão exibidos
-    let section = document.getElementById("resultados-pesquisa");
+    let section = document.getElementById("resultado-pesquisa");
 
     let campoPesquisa = document.getElementById("campo-pesquisa").value
 
@@ -34,7 +35,7 @@ function pesquisar() {
         resultados += `
          <div class="item-resultado">
                 <h2>${dado.titulo}</h2>
-                <p class="conteudo-meta">${dado.conteudo}</p>
+                <p class="descricao-meta">${dado.conteudo}</p>
                 <h4>${dado.disciplina}</h4>
                 <a href=${dado.link}>Baixar PDF</a>
             </div>
@@ -48,5 +49,4 @@ if (!resultados) {
 
 // Atribui os resultados gerados à seção HTML
 section.innerHTML = resultados;
-
 }

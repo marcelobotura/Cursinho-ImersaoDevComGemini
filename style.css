@@ -4,17 +4,15 @@
 body {
     background-color: rgb(0, 0, 0); /* Define a cor de fundo da página */
     font-family: "Lato", sans-serif; /* Define a fonte principal da página */
-    
 }
 
-
-
-.caixaPesquisa {
-  text-align: center; /* Centraliza os elementos dentro da seção */
+.caixa-pesquisa {
+    text-align: center; /* Centraliza os elementos dentro da seção */
 }
 
-.caixaPesquisa section input, section button {
-  display: inline-block; /* Alinha os elementos (input e botão) lado a lado */
+.caixa-pesquisa section input, 
+.caixa-pesquisa section button {
+    display: inline-block; /* Alinha os elementos (input e botão) lado a lado */
 }
 
 h1 {
@@ -24,7 +22,7 @@ h1 {
     margin-bottom: 1rem; /* Adiciona espaço abaixo do título */
     text-transform: uppercase; /* Converte o texto para maiúsculas */
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #f30554; /* Cor do texto */
+    color: #d31453; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Define o espaçamento entre letras */
 }
@@ -100,7 +98,6 @@ section button:hover {
     color: #ebebeb; /* Cor do texto do parágrafo */
 }
 
-
 .item-resultado strong {
     font-family: "Lato", sans-serif; /* Define a fonte para subtítulos */
     font-weight: 900; /* Aplica negrito ao subtítulo */
@@ -110,14 +107,13 @@ section button:hover {
     padding-bottom: 0.3rem; /* Espaçamento abaixo do subtítulo */
 }
 
-
 .item-resultado a {
     text-decoration: none; /* Remove a sublinhado dos links */
     font-family: "Lato", sans-serif; /* Define a fonte para os links */
     font-weight: 900; /* Aplica negrito ao texto do link */
     font-style: oblique; /* Define o estilo da fonte como oblíquo */
     font-size: 1rem; /* Tamanho da fonte do link */
-    color: #db2a2a; /* Cor do texto do link */
+    color: #ff4a4a; /* Cor do texto do link */
 }
 
 .item-resultado a:hover {
@@ -130,10 +126,20 @@ footer {
     text-align: center; /* Alinha o texto do rodapé ao centro */
     padding: 10px; /* Espaçamento interno do rodapé */
     width: 100%; /* Largura total do rodapé */
-    position: relative; /* Define o posicionamento do rodapé */
+    position: fixed; /* Define o posicionamento do rodapé */
     bottom: 0; /* Alinha o rodapé ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte do rodapé */
     font-family: "Lato", sans-serif; /* Define a fonte do rodapé */
     font-weight: 400; /* Define o peso da fonte como normal */
     font-style: normal; /* Define o estilo da fonte como normal */
 }
+
+/* Media query para tornar a caixa de pesquisa responsiva em dispositivos menores */
+@media (max-width: 600px) {
+    section input {
+        width: 80%; /* Ajusta a largura do input em dispositivos menores */
+    }
+}
+
+
+
