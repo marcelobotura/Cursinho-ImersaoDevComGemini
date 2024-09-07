@@ -142,4 +142,11 @@ footer {
 }
 
 
-
+.resuldado-pesquisa {
+    font-family: "Lato", sans-serif; /* Define a fonte para subtítulos */
+    font-weight: 900; /* Aplica negrito ao subtítulo */
+    font-style: oblique; /* Define o estilo da fonte como oblíquo */
+    color: #bb013f; /* Cor do texto do subtítulo */
+    padding-top: 0.3rem; /* Espaçamento abaixo do subtítulo */
+  }
+  

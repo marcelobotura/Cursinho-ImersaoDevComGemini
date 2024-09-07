@@ -6,7 +6,7 @@ function pesquisar() {
 
     // se campoPesquisa for uma string sem nada
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Nada foi encontrado. Você precisa digitar o nome de um atleta ou esporte</p>"
+        section.innerHTML = "<p>Nada foi encontrado.</p>"
         return 
     }
 
@@ -50,3 +50,14 @@ if (!resultados) {
 section.innerHTML = resultados;
 
 }
+
+
+// Obtém o elemento do campo de pesquisa
+const campoPesquisa = document.getElementById("campo-pesquisa");
+
+// Adiciona um ouvinte de evento para o evento 'keyup'
+campoPesquisa.addEventListener('keyup', (event) => {
+    if (event.keyCode === 13) {
+        pesquisar();
+    }
+});
