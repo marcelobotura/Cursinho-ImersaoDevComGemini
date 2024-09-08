@@ -1,10 +1,10 @@
-![Logo do Cursinho](sitecrusinho.png)
+# Cursinho - Material de Apoio para ENEM e Vestibulares
 
-### 🌟 Cursinho - Material de Apoio para ENEM e Vestibulares
+![imagem do site](sitecrusinho.png)
 
 Bem-vindo(a) ao projeto **Cursinho**! 🎉 Uma plataforma prática e eficiente para estudantes que se preparam para o ENEM e vestibulares, criada durante a **Imersão Dev com Gemini**.
 
-### ✨ Ideia do Site
+## ✨ Ideia do Site
 
 O **Cursinho** foi desenvolvido para oferecer uma plataforma simples e útil, facilitando o acesso a conteúdos educativos de qualidade. 🚀
 
