@@ -36,12 +36,13 @@ function pesquisar() {
                 <h2>${dado.titulo}</h2>
                 <p class="conteudo-meta">${dado.conteudo}</p>
                 <h4>${dado.disciplina}</h4>
-                <a href=${dado.link}>Baixar PDF</a>
+                <a href="#" onclick="baixarEVisitar('${dado.link}'); return false;">Baixar PDF</a>
+                
             </div>
     `;
     }
 }
-
+//<a href=${dado.link}>Baixar PDF</a>
 if (!resultados) {
     resultados = "<p>Nada foi encontrado</p>"
 }
@@ -61,3 +62,20 @@ campoPesquisa.addEventListener('keyup', (event) => {
         pesquisar();
     }
 });
+
+
+function baixarEVisitar(url) {
+    // Cria um elemento de link temporário para iniciar o download
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = url.split('/').pop(); // Define o nome do arquivo para download
+    document.body.appendChild(link);
+    link.click(); // Simula o clique para baixar o arquivo
+    document.body.removeChild(link); // Remove o link temporário do DOM
+
+    // Redireciona para a página de exemplo após o download
+    setTimeout(function() {
+        window.location.href = 'pdfexemplo.html'; // Redireciona para a página pdfexemplo.html
+    }, 100); // Aguarda 500ms para garantir o início do download
+}
+

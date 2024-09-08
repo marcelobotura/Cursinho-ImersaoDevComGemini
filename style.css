@@ -15,10 +15,23 @@ body {
     display: inline-block; /* Alinha os elementos (input e botão) lado a lado */
 }
 
+.resuldado-pesquisa {
+    font-family: "Lato", sans-serif; /* Define a fonte para subtítulos */
+    font-weight: 900; /* Aplica negrito ao subtítulo */
+    font-style: oblique; /* Define o estilo da fonte como oblíquo */
+    color: #bb013f; /* Cor do texto do subtítulo */
+    padding-top: 0.3rem; /* Espaçamento abaixo do subtítulo */
+   
+  }
+  
+
+
+
 h1 {
     font-family: "Lato", sans-serif; /* Define a fonte para o título principal */
     font-weight: 900; /* Aplica negrito ao texto */
     font-style: normal; /* Define o estilo da fonte como normal */
+    margin-top: 5rem; /* Adiciona espaço abaixo do título */
     margin-bottom: 1rem; /* Adiciona espaço abaixo do título */
     text-transform: uppercase; /* Converte o texto para maiúsculas */
     font-size: 2.5rem; /* Tamanho da fonte */
@@ -142,11 +155,5 @@ footer {
 }
 
 
-.resuldado-pesquisa {
-    font-family: "Lato", sans-serif; /* Define a fonte para subtítulos */
-    font-weight: 900; /* Aplica negrito ao subtítulo */
-    font-style: oblique; /* Define o estilo da fonte como oblíquo */
-    color: #bb013f; /* Cor do texto do subtítulo */
-    padding-top: 0.3rem; /* Espaçamento abaixo do subtítulo */
-  }
-  
+
+ 

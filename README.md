@@ -1,34 +1,30 @@
-# 🌟 Cursinho Prep - Material de Apoio para ENEM e Vestibulares
+![Logo do Cursinho](sitecrusinho.png)
 
-Bem-vindo(a) ao projeto **Cursinho**! 🎉 Este é o lugar onde a mágica do aprendizado acontece de maneira prática e eficiente, com um toque especial de orientação do **Cursinho-ImersãoDevComGemini**.
+### 🌟 Cursinho - Material de Apoio para ENEM e Vestibulares
 
-## ✨ A Ideia por Trás do Site
+Bem-vindo(a) ao projeto **Cursinho**! 🎉 Uma plataforma prática e eficiente para estudantes que se preparam para o ENEM e vestibulares, criada durante a **Imersão Dev com Gemini**.
 
-A ideia do **Cursinho** surgiu durante a nossa jornada de aprendizado na **Imersão Dev com Gemini**. O objetivo foi criar uma plataforma que fosse simples, eficiente e útil para estudantes que estão se preparando para o ENEM e vestibulares. Este site é o resultado dessa imersão intensa e de nossa paixão pela educação! 🚀
+### ✨ Ideia do Site
 
-## 🛠️ Tecnologias Utilizadas
+O **Cursinho** foi desenvolvido para oferecer uma plataforma simples e útil, facilitando o acesso a conteúdos educativos de qualidade. 🚀
 
-Nosso site foi construído com:
+### 🛠️ Tecnologias Utilizadas
 
-- **HTML** e **CSS**: Para estruturar a página e garantir um visual atrativo.
-- **JavaScript**: Para a implementação de uma busca inteligente que retorna os melhores resultados para os seus estudos.
-- **Reset CSS**: Para uniformizar o estilo da página em diferentes navegadores.
-- **Google Fonts**: Para dar um toque especial no design usando a fonte 'Lato'.
+- **HTML** e **CSS**: Estrutura e design.
+- **JavaScript**: Busca inteligente.
+- **Reset CSS**: Uniformidade entre navegadores.
+- **Google Fonts**: Estilo com a fonte 'Lato'.
 
-## 🚀 Como o Site Funciona?
+### 🚀 Como Funciona?
 
-1. **Pesquise**: Digite o que deseja encontrar no campo de pesquisa (ex.: "Funções" ou "Química Geral").
-2. **Clique em "Pesquisar"**: O site irá listar todo o conteúdo relevante disponível.
-3. **Baixe o Material**: Clique nos links para baixar PDFs e outros recursos de estudo. Simples e rápido! 😊
+1. **Pesquise**: Digite o que procura.
+2. **Pesquise**: Clique em "Pesquisar".
+3. **Baixe**: Acesse e baixe o material.
 
-## 🌐 Acesse o Site
-Explore o site completo e comece a estudar agora mesmo: [Cursinho-ImersaoDevComGemini](https://marcelobotura.github.io/Cursinho-ImersaoDevComGemini/).
+### 🌐 Acesse o Site
 
+Confira o site: [Cursinho-ImersaoDevComGemini](https://marcelobotura.github.io/Cursinho-ImersaoDevComGemini/).
 
-## ✍️ Sobre o Autor
+### ✍️ Sobre o Autor
 
-Feito com 💜 por [Marcelo Botura](https://marcelobotura.github.io/souza/).
-
----
-
-Desenvolvido com orientações do **Cursinho-ImersãoDevComGemini**.
+Criado por [Marcelo Botura](https://marcelobotura.github.io/souza/).
